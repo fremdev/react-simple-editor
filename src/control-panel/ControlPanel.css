@@ -1,0 +1,37 @@
+#control-panel {
+    background-color: #fff;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+#format-actions {
+    width: 200px;
+    margin-right: 400px;
+    display: inline-block;
+}
+.format-action {
+    width: 25px;
+    height: 20px;
+    margin-right: 3px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+.format-action:disabled {
+    cursor: not-allowed;
+}
+.format-action.active {
+    background: #ccc;
+}
+.format-action.color {
+    position: relative;
+}
+.picker {
+    position: absolute;
+    background: #fff;
+    z-index: 15;
+    top: 25px;
+    left: -12px;
+}

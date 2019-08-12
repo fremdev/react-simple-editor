@@ -1,0 +1,22 @@
+.synonyms-popup {
+  position: absolute;
+  left: 0px;
+  background: #fff;
+  z-index: 10;
+  padding: 5px 10px;
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+.synonyms-title {
+  margin: 10px 0px;
+}
+.synonyms-popup li {
+  list-style: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.synonyms-popup li:hover {
+  color: #00a0fc;
+}
+.synonyms-popup p {
+  white-space: nowrap;
+}
